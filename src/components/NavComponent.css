@@ -1,0 +1,119 @@
+/* NavComponent.css */
+
+
+.navbar {
+  
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    z-index: 10;
+    
+  }
+  .logo-link{
+    display: inline-block;
+    
+    height: 65px;
+    margin-left: 200px;
+    background: #000;
+    z-index: 20;
+  }
+  .logo{
+   height: 100%;
+    display: inline-block;
+    z-index: 1;
+    
+  }
+  .nav-options {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    list-style: none;
+    height: 100%;
+    font-family: "Montserrat", serif;
+    display: flex;
+    gap: 40px;
+   align-items: center;
+   justify-content: end;
+  
+  }
+  
+  .nav-item {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    padding: 15px 0;
+  }
+  
+  .nav-item:hover {
+    border-top: 3px solid yellow;
+    transition: border-top 2ms linear ;
+}
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #00aced;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .free-quote-line{
+
+    height: 55px;
+    position: relative;
+    top: 80px;
+    background: yellow;
+    z-index: 1;
+   
+  }
+  .free-quote-line .button{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    background: rgb(111, 184, 51);
+    height: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 30px;
+  }
+  .button a{
+    display: inline-block;
+    font-size: 1.4rem;
+   text-decoration: none;
+   color: white;
+   
+  }
+  .button:hover{
+    background: yellow;
+    
+    border: 2px solid rgb(111, 184, 51) ;
+  }

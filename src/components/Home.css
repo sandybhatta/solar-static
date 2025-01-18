@@ -1,0 +1,60 @@
+/* Full height video container */
+.home{
+    position: relative;
+    height: 300vh;
+}
+.video-container {
+    width: 100%;
+    margin-top: 80px;
+    height: 90vh; 
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Container below the video */
+  .text-container {
+   position: absolute;
+   top: 90vh;
+    width: 100%;
+    height: 30vh; 
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    transition: opacity 0.5s ease;
+   overflow: hidden;
+  }
+  
+  .text-content {
+    text-align: center;
+    max-width: 80%;
+    padding: 10px;
+    opacity: 0;
+    position: relative;
+    top: 150px;
+  }
+  
+  .text-container .text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-container .text-content p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  /* When the text is visible (after scroll trigger) */
+  .text-container .visible {
+    opacity: 1;
+    top: 0;
+    transition: all 2s ease-out  2ms;
+  }
+  
