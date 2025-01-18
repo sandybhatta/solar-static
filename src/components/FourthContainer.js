@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './FourthContainer.css';
+import { Link } from 'react-router-dom';
 
 const FourthContainer = () => {
   useEffect(() => {
@@ -36,13 +37,20 @@ const FourthContainer = () => {
     <div id="fourth-container" className="fourth-container">
       <h2 className="fourth-heading">Learn More About Our Commercial Rooftop Solar Installations</h2>
       <div className="icon-grid-four">
+
+        <Link to="/commercial-solar-systems/solar-panels-apartments/" > 
         <div className="icon-item-f">
           <img
             src="https://www.thesolarcompany.com/wp-content/uploads/2022/03/industry-dealership.svg"
             alt="Car Dealerships"
           />
+          
+
           <p>Solar Carport Installations for Car Dealerships</p>
         </div>
+        </Link>
+       
+       <Link to="/commercial-solar-systems/solar-panels-carport/">
         <div className="icon-item-f">
           <img
             src="https://www.thesolarcompany.com/wp-content/uploads/2022/03/industry-apartments.svg"
@@ -50,6 +58,8 @@ const FourthContainer = () => {
           />
           <p>Solar Power Systems for Apartment Buildings</p>
         </div>
+        </Link>
+        <Link to="/commercial-solar-systems/solar-panels-warehouse/"> 
         <div className="icon-item-f">
           <img
             src="https://www.thesolarcompany.com/wp-content/uploads/2022/03/industry-warehouses.svg"
@@ -57,6 +67,9 @@ const FourthContainer = () => {
           />
           <p>Solar Power Systems for Warehouses</p>
         </div>
+        </Link>
+       
+       <Link to="/commercial-solar-systems/solar-field-installations/">
         <div className="icon-item-f">
           <img
             src="https://www.thesolarcompany.com/wp-content/uploads/2022/03/industry-fields.svg"
@@ -64,6 +77,8 @@ const FourthContainer = () => {
           />
           <p>Solar Power Field Construction</p>
         </div>
+        </Link>
+        
       </div>
     </div>
   );

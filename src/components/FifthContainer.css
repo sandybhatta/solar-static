@@ -1,0 +1,56 @@
+.fifth-container {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fifth-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .fifth-row.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .fifth-row.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fifth-image {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .fifth-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .fifth-text {
+    width: 50%;
+    padding: 20px;
+    height: 100%;
+   align-content: center;
+  }
+  
+  .fifth-text h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .fifth-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

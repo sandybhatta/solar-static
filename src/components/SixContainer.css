@@ -1,0 +1,62 @@
+.six-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../fifth_pic.avif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .six-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     /* Adds a dark overlay for better text contrast */
+    z-index: 1;
+  }
+  
+  .six-content {
+    height: 100%;
+    z-index: 2; /* Ensures content is above the overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .six-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .six-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .six-content button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .six-content button:hover {
+    background-color: #e68900;
+  }
+  

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './Home.css';
 import ThirdContainer from './ThirdContainer';
 import FourthContainer from './FourthContainer';
+import FifthContainer from './FifthContainer';
+import SixContainer from './SixContainer';
 const Home = () => {
   const [showText, setShowText] = useState(false);
 
@@ -55,6 +57,8 @@ const Home = () => {
         
                  <ThirdContainer />
                 <FourthContainer />
+                <FifthContainer />
+                <SixContainer />
 
     </div>
   );
