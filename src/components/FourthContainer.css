@@ -1,0 +1,55 @@
+
+
+  .fourth-container {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .fourth-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .icon-grid-four {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .icon-item-f {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .icon-item-f img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 1rem;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Slightly offset for animation */
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .icon-item-f img.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* No offset */
+  }
+  
+  .icon-item-f p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  .icon-item-f img {
+    opacity: 0;
+    
+  }
+  
+  .icon-item-f img.visible {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  

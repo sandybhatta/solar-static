@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-
+import ThirdContainer from './ThirdContainer';
+import FourthContainer from './FourthContainer';
 const Home = () => {
   const [showText, setShowText] = useState(false);
 
@@ -41,7 +42,7 @@ const Home = () => {
       <div id="text-container" className='text-container'>
         <div className={`text-content ${showText ? 'visible' : ''}`}>
           <h2>Generate a Higher Return on Roof</h2>
-          
+
           <p>The Solar Company® specializes in commercial solar that helps</p>
 
         <p> you evaluate, execute and finance an informed solar installation</p>
@@ -49,6 +50,12 @@ const Home = () => {
           <p>investment so you can achieve the highest return possible.</p>
         </div>
       </div>
+
+
+        
+                 <ThirdContainer />
+                <FourthContainer />
+
     </div>
   );
 };
