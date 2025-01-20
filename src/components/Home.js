@@ -4,6 +4,7 @@ import ThirdContainer from './ThirdContainer';
 import FourthContainer from './FourthContainer';
 import FifthContainer from './FifthContainer';
 import SixContainer from './SixContainer';
+import LastHomeContainer from './LastHomeContainer';
 const Home = () => {
   const [showText, setShowText] = useState(false);
 
@@ -59,6 +60,7 @@ const Home = () => {
                 <FourthContainer />
                 <FifthContainer />
                 <SixContainer />
+                <LastHomeContainer />
 
     </div>
   );

@@ -3,12 +3,21 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import './App.css'
 import NavComponent from "./components/NavComponent";
-import SolarFieldInstallations from "./components/SolarFieldInstallations";
-import SolarPanelsCarport from "./SolarPanelsCarport";
-import SolarPanelsWarehouse from "./SolarPanelsWarehouse";
-import SolarPanelApartments from "./components/SolarPanelApartments";
-import TurnkeyProcess from "./components/TurnkeyProcess";
 import Home from "./components/Home";
+
+
+import SolarPanelApartments from "./ComponentA/SolarPanelApartments";
+import SolarFieldInstallations from "./ComponentA/SolarFieldInstallations";
+import SolarPanelsCarport from "./ComponentA/SolarPanelsCarport";
+import SolarPanelsWarehouse from "./ComponentA/SolarPanelsWarehouse";
+import TurnkeyProcess from "./ComponentsB/TurnkeyProcess";
+import ScrollToTop from "./ScrollToTop";
+import OurStory from "./ComponentsC/OurStory";
+import OurTeam from "./ComponentsC/OurTeam";
+import Faq from "./ComponentsC/Faq";
+import Warranty from "./ComponentsC/Warranty";
+import ContactUs from "./ContactUs";
+
 
 
 
@@ -17,6 +26,7 @@ const App = () => {
   return (
     <div>
       <NavComponent />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route
@@ -38,6 +48,26 @@ const App = () => {
         <Route
           path="/commercial-solar-projects/process/"
           element={<TurnkeyProcess />}
+        />
+        <Route
+          path="/about/our-story"
+          element={<OurStory />}
+        />
+        <Route
+          path="/about/Our-Team"
+          element={<OurTeam />}
+        />
+        <Route
+          path="/about/FAQ"
+          element={<Faq />}
+        />
+        <Route
+          path="/about/warranty"
+          element={<Warranty />}
+        />
+        <Route
+          path="/contact-us"
+          element={<ContactUs />}
         />
       </Routes>
     </div>

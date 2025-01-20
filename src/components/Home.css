@@ -1,7 +1,6 @@
 /* Full height video container */
 .home{
-    position: relative;
-    height: 300vh;
+  width: 100%;
 }
 .video-container {
     width: 100%;

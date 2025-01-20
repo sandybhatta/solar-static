@@ -1,6 +1,6 @@
 import React from "react";
-import fifthPic from "../fifth_pic.avif";
 import "./SixContainer.css";
+import { Link } from "react-router-dom";
 
 const SixContainer = () => {
   return (
@@ -14,7 +14,8 @@ const SixContainer = () => {
           your property. Thus, we also help you take advantage of the many
           financial benefits of solar energy for your business.
         </p>
-        <button>See Our Process</button>
+        
+        <Link to="/commercial-solar-projects/process/"><button>See Our Process</button></Link>
       </div>
     </div>
   );
