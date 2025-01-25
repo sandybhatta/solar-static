@@ -46,6 +46,7 @@
     cursor: pointer;
     position: relative;
     padding: 15px 0;
+ 
   }
   
   .nav-item:hover {
@@ -58,12 +59,14 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #444;
+    background-color: #000000;
     list-style: none;
     padding: 10px 0;
     margin: 0;
     min-width: 200px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+
   }
   
   .dropdown-menu li {
@@ -79,9 +82,9 @@
     color: #00aced;
   }
   
-  .nav-item.dropdown:hover .dropdown-menu {
+  /* .nav-item.dropdown:hover .dropdown-menu {
     display: block;
-  }
+  } */
   
   .free-quote-line{
 
@@ -117,3 +120,149 @@
     
     border: 2px solid rgb(111, 184, 51) ;
   }
+
+  /* General styles remain the same */
+
+/* Hamburger Menu */
+/* General styles remain unchanged */
+
+/* Hamburger Menu */
+/* General styles remain unchanged */
+
+/* Hamburger Menu */
+/* General styles remain unchanged */
+
+/* Hamburger Menu */
+/* General styles remain unchanged */
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 20;
+  font-size: 1.8rem;
+}
+
+/* Nav Item Header for Dropdown with Arrow */
+.nav-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Mobile-only dropdown styles */
+.dropdown-menu {
+  display: none;
+  padding-left: 20px;
+}
+
+.dropdown-menu.show-dropdown {
+  display: block;
+  transform-origin: top;
+
+}
+
+.nav-options.show-mobile {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 15;
+}
+
+.nav-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-item i {
+  display: none; /* Hidden by default */
+  margin-left: auto;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    height: 60px;
+    z-index: 10;
+  }
+  .logo-link{
+    display: inline-block;
+    
+    height: 45px;
+    margin-left: 20px;
+  
+  }
+
+  .nav-options.show-mobile {
+    top: 0px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item.dropdown{
+    position: relative;
+    /* top: -100px; */
+  }
+ 
+  .nav-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav-item-header a{
+text-decoration: none;
+color: black;
+  }
+  .nav-options {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-item i {
+    display: inline; /* Show arrows for mobile/tablets */
+  }
+
+  .free-quote-line {
+    display: none; /* Hide the Free Quote line on mobile */
+  }
+  .nav-options {
+    display: none;
+    flex-direction: column;
+  }
+  
+  .nav-options.show-mobile {
+    display: flex;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    padding-left: 20px;
+  }
+  
+  .dropdown-menu.show-dropdown {
+    display: block;
+  }
+  
+}
