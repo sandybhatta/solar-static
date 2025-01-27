@@ -77,15 +77,63 @@
   .submit-button:hover {
     background-color: #0056b3;
   }
+  .map-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .map-iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .location-button:hover {
+    background-color: #218838;
+  }
+  
+
   
   @media (max-width: 768px) {
     .contact-us {
+      width: 100%;
+      height: auto;
       flex-direction: column;
     }
   
     .contact-info, .contact-form {
-      flex: 1 1 auto;
+      /* flex: 1 1 auto; */
       margin-bottom: 20px;
+    }
+    .map-iframe {
+      height: 300px;
+    }
+  
+    .location-button {
+      width: 100%;
+      text-align: center;
     }
   }
   

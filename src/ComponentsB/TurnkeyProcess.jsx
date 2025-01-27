@@ -56,7 +56,7 @@ const TurnkeyProcess = () => {
     
   
     const handleScroll = () => {
-      const containers = document.querySelectorAll('.row-text');
+      const containers = document.querySelectorAll('.row-text2');
       containers.forEach(container => {
         const containerTop = container.getBoundingClientRect().top;
   
@@ -82,7 +82,7 @@ const TurnkeyProcess = () => {
     return (
       <div>
         {/* Main Image Section */}
-        <div className="image-front">
+        <div className="image-front2b">
           <img src={pic1} alt="Solar Panels" />
         </div>
   
@@ -94,18 +94,18 @@ const TurnkeyProcess = () => {
         {/* Row Containers */}
         {data.map((item, index) => (
           <div
-            className={`row-container ${index % 2 !== 0 ? "reverse-layout" : ""}`}
+            className={`row-container2 ${index % 2 !== 0 ? "reverse-layout2" : ""}`}
             key={index}
           >
             {/* Text Section */}
-            <div className="row-text" style={{ backgroundColor: `${bg[index]}` }}>
-              <img src={item.logo} alt="Logo" className="row-logo" />
+            <div className="row-text2" style={{ backgroundColor: `${bg[index]}` }}>
+              <img src={item.logo} alt="Logo" className="row-logo2" />
               <h2>{item.heading}</h2>
               <p>{item.paragraph}</p>
             </div>
   
             {/* Image Section */}
-            <div className="row-image">
+            <div className="row-image2">
               <img src={item.image} alt={`Row ${index + 1}`} />
             </div>
           </div>

@@ -48,10 +48,16 @@
     padding: 15px 0;
  
   }
+  .nav-item-header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
   
   .nav-item:hover {
     border-top: 3px solid yellow;
+    background: #00000012;
     transition: border-top 2ms linear ;
+    border-radius: 10px;
 }
   
   .dropdown-menu {
@@ -194,7 +200,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 990px) {
 
   .navbar{
     position: fixed;
@@ -205,10 +211,10 @@
   }
   .logo-link{
     display: inline-block;
-    
+    z-index: 16;
     height: 45px;
     margin-left: 20px;
-  
+   position: fixed;
   }
 
   .nav-options.show-mobile {
@@ -243,10 +249,16 @@ color: black;
   .nav-item i {
     display: inline; /* Show arrows for mobile/tablets */
   }
+  .free-quote-line{
 
-  .free-quote-line {
-    display: none; /* Hide the Free Quote line on mobile */
+    height: 55px;
+    position: relative;
+    top: 60px;
+    background: yellow;
+    z-index: 1;
+   
   }
+  
   .nav-options {
     display: none;
     flex-direction: column;

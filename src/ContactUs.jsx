@@ -1,13 +1,15 @@
-import React from 'react';
-import logo from "./logo.png"
+import React, { useState } from 'react';
+import logo from "./logo.png";
 import pic1 from "./ComponentA/aprts-pic.jpg";
 import "./ContactUs.css";
 import Footer from './components/Footer';
 
 const ContactUs = () => {
+  const [mapLocation, setMapLocation] = useState("jaipur");
+
   return (
     <div>
-      <div className="image-container">
+      <div className="image-front3">
         <img src={pic1} alt="piccs" />
       </div>
 
@@ -66,6 +68,42 @@ const ContactUs = () => {
               <button type="submit" className="submit-button">Submit</button>
             </div>
           </form>
+
+          {/* Map Section */}
+          <div className="map-section">
+            <h3>Our Locations</h3>
+            <div className="map-container">
+              {mapLocation === "jaipur" ? (
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227749.0532085481!2d75.6257470087723!3d26.88511514579534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1738004373415!5m2!1sen!2sin"
+                  width="300px"
+                  title='first'
+                  height="200px"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              ) : (
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871161.2289747281!2d84.32662411170834!3d23.65407047669949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398b2386df480857%3A0x62c5b809eee29004!2sJharkhand!5e0!3m2!1sen!2sin!4v1738004422375!5m2!1sen!2sin"
+                  width="300px"
+                  title='second'
+                  height="200"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              )}
+            </div>
+            <button
+              className="location-button"
+              onClick={() => setMapLocation(mapLocation === "jaipur" ? "jharkhand" : "jaipur")}
+            >
+              {mapLocation === "jaipur" ? "View Jharkhand Location" : "View Jaipur Location"}
+            </button>
+          </div>
         </div>
       </div>
       <Footer logo={logo} />

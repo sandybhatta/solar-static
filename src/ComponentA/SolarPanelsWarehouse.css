@@ -1,14 +1,14 @@
-.image-front{
+.image-front3{
     height: 100vh;
     width: 100%;
     overflow: hidden;
 }
 
-.image-front img {
+.image-front3 img {
     width: 100%;
     height: auto;
   }
-  .text-box-appartments{
+  .text-box-appartments3{
     padding-top: 100px;
     height: 60vh;
     width: 100%;
@@ -38,7 +38,7 @@
     margin-bottom: 40px;
   }
 
-.unwanted{
+.unwanted3{
     display: flex;
     flex-direction: column;
     height: 30vh;
@@ -46,7 +46,7 @@
     justify-content: center;
     background: rgb(178, 182, 194);
 }
-.unwanted h2{
+.unwanted3 h2{
     color: #222;
     font-size: 2rem;
     font-weight: 400;
@@ -54,7 +54,7 @@
     align-content: center;
    
 }
-.unwanted p{
+.unwanted3 p{
     margin-top: 10px;
     color: #222;
     font-size: 1rem;
@@ -63,29 +63,29 @@
     text-align: center;
 }
 
-  .row-container {
+  .row-container3 {
     display: flex;
     height: 80vh; /* Row height */
     align-items: center;
     overflow: hidden; /* Prevents any overflow */
   }
   
-  .row-container.reverse-layout {
+  .row-container3.reverse-layout3 {
     flex-direction: row-reverse;
   }
   
-  .row-image {
+  .row-image3 {
     flex: 1;
     height: 100%; /* Ensures the image container is the full row height */
   }
   
-  .row-image img {
+  .row-image3 img {
     width: 100%;
     height: 100%; /* Ensures the image doesn't overflow the container */
     object-fit: cover; /* Maintains aspect ratio while filling the container */
   }
   
-  .row-text {
+  .row-text3 {
     height: 100%;
     flex: 1;
     padding: 0px;
@@ -97,30 +97,30 @@
     background-color: #f4f4f4;
   }
   
-  .row-logo {
+  .row-logo3 {
     width: 60px;
     height: 60px;
     margin-bottom: 15px;
   }
   
-  .row-text h2 {
+  .row-text3 h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #222;
   }
   
-  .row-text p {
+  .row-text3 p {
     font-size: 1rem;
     line-height: 1.5;
     color: #555;
     margin: 0 60px;
   }
-  .row-text {
+  .row-text3 {
     opacity: 0;
     transition: opacity 3.5s ease-in-out; /* Smooth fade-in effect */
   }
   
-  .row-text.visible {
+  .row-text3.visible {
     opacity: 1;
   }
   .solar-comp-container{
@@ -157,15 +157,15 @@ margin-bottom: 40px;
 
   }
 
-  .install-solar-container{
+  .install-solar-container3{
     height: 60vh;
-    width: 100;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     
   }
-  .install-solar{
+  .install-solar3{
     position: relative;
     top: 5vh;
     height: 100%;
@@ -176,15 +176,171 @@ margin-bottom: 40px;
     flex-direction: column;
     gap: 20px;
   }
-  .install-solar h2{
+  .install-solar3 h2{
     color:rgb(0, 0, 0);
     font-size: 2rem;
     font-weight: 400;
     margin-top: 0px;
   }
-  .install-solar p{
+  .install-solar3 p{
     color:rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 0px;
+  }
+
+
+
+
+
+  @media(max-width:768px){
+.image-front3{
+    height: 50vh;
+
+}
+
+.image-front3 img {
+    width:auto ;
+    height: 100%;
+  }
+
+  .text-box-appartments3{
+    padding: 10px 0 10px;
+    height: auto;
+  }
+  .text-box-app{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 80%;
+    
+    
+  }
+  .text-box-app h2{
+
+    font-size: 1.5rem;
+  
+  }
+  .text-box-app p{
+    color: white;
+    font-size: 0.9rem;
+   
+    margin-bottom: 40px;
+  }
+
+  .unwanted3{
+    padding: 10px 0 20px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background: rgb(178, 182, 194);
+}
+.unwanted3 h2{
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    align-content: center;
+   
+}
+.unwanted3 p{
+    margin-top: 10px;
+    color: #222;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+.row-container3 {
+  display: flex;
+  height: 100vh; /* Row height */
+  flex-direction: column-reverse;
+}
+
+.row-container3.reverse-layout3 {
+  flex-direction: column-reverse;
+}
+
+.row-image3 {
+  flex: 1;
+  height: 50%;
+  width: 100%; /* Ensures the image container is the full row height */
+}
+
+.row-image3 img {
+  width: 100%;
+  height: 100%; /* Ensures the image doesn't overflow the container */
+  object-fit: cover; /* Maintains aspect ratio while filling the container */
+}
+
+.row-text3 {
+  height: auto;
+  flex: 1;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.row-logo3 {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+.row-text3 h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.row-text3 p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 0 60px;
+}
+
+
+.install-solar-container3{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.install-solar3{
+  position: relative;
+  top: 0vh;
+  margin: 10px 0 10px;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.install-solar3 h2{
+  color:rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.install-solar3 p{
+  color:rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
   }

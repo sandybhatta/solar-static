@@ -53,4 +53,39 @@
     font-size: 1rem;
     line-height: 1.5;
   }
+@media(max-width:768px){
+  .fifth-container {
+    height: auto;
+  }
+  .fifth-row, .fifth-row.reverse {
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    height: 100vh;
+  }
+  .fifth-image {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+  }
+  .fifth-image img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+  }
+  .fifth-text {
+    width: 100%;
+    padding: 5px;
+    height: 50%;
+
+  }
+  .fifth-text h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
   
+  .fifth-text p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+}

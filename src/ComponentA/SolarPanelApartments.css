@@ -2,8 +2,9 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
-}
 
+}
+ 
 .image-front img {
     width: 100%;
     height: auto;
@@ -55,29 +56,29 @@
 }
 
 
-  .row-container {
+  .row-container1 {
     display: flex;
     height: 80vh; /* Row height */
     align-items: center;
     overflow: hidden; /* Prevents any overflow */
   }
   
-  .row-container.reverse-layout {
+  .row-container1.reverse-layout {
     flex-direction: row-reverse;
   }
   
-  .row-image {
+  .row-image1 {
     flex: 1;
     height: 100%; /* Ensures the image container is the full row height */
   }
   
-  .row-image img {
+  .row-image1 img {
     width: 100%;
     height: 100%; /* Ensures the image doesn't overflow the container */
     object-fit: cover; /* Maintains aspect ratio while filling the container */
   }
   
-  .row-text {
+  .row-text1 {
     height: 100%;
     flex: 1;
     padding: 0px;
@@ -89,41 +90,41 @@
     background-color: #f4f4f4;
   }
   
-  .row-logo {
+  .row-logo1 {
     width: 60px;
     height: 60px;
     margin-bottom: 15px;
   }
   
-  .row-text h2 {
+  .row-text1 h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #222;
   }
   
-  .row-text p {
+  .row-text1 p {
     font-size: 1rem;
     line-height: 1.5;
     color: #555;
     margin: 0 60px;
   }
-  .row-text {
+  .row-text1 {
     opacity: 0;
     transition: opacity 3.5s ease-in-out; /* Smooth fade-in effect */
   }
   
-  .row-text.visible {
+  .row-text1.visible {
     opacity: 1;
   }
 
-  .install-solar-container{
+  .install-solar-container1{
     height: 30vh;
-    width: 100;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .install-solar{
+  .install-solar-container1 .install-solar{
     height: 100%;
     width: 60%;
     display: flex;
@@ -143,4 +144,72 @@
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 40px;
+  }
+  @media(max-width:768px){
+    .image-front{
+      height: 50vh;
+      position: relative;
+  }
+  .image-front img {
+    width: auto;
+    height: 100%;
+  }
+  .text-box-appartments{
+    padding: 100px 0;
+    height: auto;
+    width: 100%;
+    background: rgb(67, 70, 71);
+  }
+  .row-container1 {
+    height: 100vh;
+   flex-direction: column-reverse;
+  }
+  
+  .row-container1.reverse-layout2 {
+    flex-direction: column-reverse;
+  }
+  .row-text1 h2 {
+    font-weight: 400;
+  }
+  .row-logo1 {
+   
+    width:75px;
+    height: 75px;
+    margin-bottom: 1px;
+  }
+
+
+
+  .install-solar-container1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .install-solar-container1 .install-solar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  .install-solar h2{
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  .install-solar p{
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
   }

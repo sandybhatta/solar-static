@@ -60,4 +60,23 @@
     opacity: 1;
     transform: translateY(0);
   }
-  
+  @media (max-width: 768px){
+    .third-container{
+      height: auto;
+    }
+    .icon-grid {
+      height: auto;
+    }
+    .heading {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    .icon-item img {
+      width: 80px;
+      height: 80px;
+    }
+    .icon-item h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+  }

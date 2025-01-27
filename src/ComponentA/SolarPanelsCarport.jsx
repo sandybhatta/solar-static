@@ -50,7 +50,7 @@ const SolarPanelCarport = () => {
     const [showText, setShowText] = useState(false); // State to control visibility
   
     const handleScroll = () => {
-      const containers = document.querySelectorAll('.row-text');
+      const containers = document.querySelectorAll('.row-text2');
       containers.forEach(container => {
         const containerTop = container.getBoundingClientRect().top;
   
@@ -76,12 +76,12 @@ const SolarPanelCarport = () => {
     return (
       <div>
         {/* Main Image Section */}
-        <div className="image-front">
+        <div className="image-front4">
           <img src={pic1} alt="Solar Panels" />
         </div>
   
         {/* Main Text Section */}
-        <div className="text-box-appartments1">
+        <div className="text-box-appartments2">
           <div id="text-container" className="text-box-app">
             <h2>Solar Panels for Carports & Auto Dealers</h2>
             <p>Solar panels for carports & auto dealers is efficient and a great investment. Utilize the surface area of your car port roofs and boost revenue with solar panels.</p>
@@ -98,26 +98,26 @@ More and more consumers will choose businesses that have gone solar to support t
         {/* Row Containers */}
         {data.map((item, index) => (
           <div
-            className={`row-container ${index % 2 !== 0 ? "reverse-layout" : ""}`}
+            className={`row-container2 ${index % 2 !== 0 ? "reverse-layout2" : ""}`}
             key={index}
           >
             {/* Text Section */}
-            <div className="row-text" style={{ backgroundColor: `${bg[index]}` }}>
-              <img src={item.logo} alt="Logo" className="row-logo" />
+            <div className="row-text2" style={{ backgroundColor: `${bg[index]}` }}>
+              <img src={item.logo} alt="Logo" className="row-logo2" />
               <h2>{item.heading}</h2>
               <p>{item.paragraph}</p>
             </div>
   
             {/* Image Section */}
-            <div className="row-image">
+            <div className="row-image2">
               <img src={item.image} alt={`Row ${index + 1}`} />
             </div>
           </div>
         ))}
 
 
-<div className='solar-comp-container'>
-    <div className='solar-comp'>
+<div className='solar-comp-container2'>
+    <div className='solar-comp2'>
             <h2>The Solar Company: Your Turnkey Solar Installer</h2>
             <p>The Solar Company® is your local solar panel system specialist for commercial real estate. We help you maximize the assets and value of your property by introducing the financial benefits of solar for your business. Achieve impressive energy savings, property appreciation, a potential revenue stream, and company integrity.</p>
             <p>We always support our clients every step of the way and help them access the financial subsidies and tax benefits of solar from the local government. We take care of the entire process from design to activation to provide you with a turnkey solar system that you know how to operate.  </p>
@@ -127,8 +127,8 @@ More and more consumers will choose businesses that have gone solar to support t
 </div>
 <SixContainer />
 
-<div className='install-solar-container'>
-    <div className='install-solar'>
+<div className='install-solar-container2'>
+    <div className='install-solar2'>
         <h2>Get Started with Solar Carports</h2>
         <p>Discover how you can maximize the potential of your car dealership business with solarincrease-powered carports. Impress your customers,  your revenue and property value and protect your vehicles with this innovative commercial solar panel installation.</p>
         <p>Get in touch with our helpful team to get answers to your questions and book a consultation for your solar installation today.</p>

@@ -81,7 +81,7 @@ const SolarPanelApartments = () => {
    
   
     const handleScroll = () => {
-      const containers = document.querySelectorAll('.row-text');
+      const containers = document.querySelectorAll('.row-text1');
       containers.forEach(container => {
         const containerTop = container.getBoundingClientRect().top;
   
@@ -115,7 +115,7 @@ const SolarPanelApartments = () => {
         <div className="text-box-appartments">
           <div id="text-container" className="text-box-app">
             <h2>Solar Panels for Apartments</h2>
-
+ 
             <p>The Solar Company® provides Solar Panels for Apartments in Texas and the Sunbelt area for sustainable solutions that provide an excellent return on investment. Solar panels are now more affordable than ever, and we help owners get the most value for their solar energy solutions.</p>
 
             <p>Solar panels add tremendous return on investment to apartment complexes. Experts estimate that each retrofit—or, adding solar panels to existing buildings—contributes as much as 20% ROI annually.</p>
@@ -132,18 +132,18 @@ const SolarPanelApartments = () => {
         {/* Row Containers */}
         {data.map((item, index) => (
           <div
-            className={`row-container ${index % 2 !== 0 ? "reverse-layout" : ""}`}
+            className={`row-container1 ${index % 2 !== 0 ? "reverse-layout2" : ""}`}
             key={index}
           >
             {/* Text Section */}
-            <div className="row-text" style={{ backgroundColor: `${bg[index]}` }}>
-              <img src={item.logo} alt="Logo" className="row-logo" />
+            <div className="row-text1" style={{ backgroundColor: `${bg[index]}` }}>
+              <img src={item.logo} alt="Logo" className="row-logo1" />
               <h2>{item.heading}</h2>
               <p>{item.paragraph}</p>
             </div>
   
             {/* Image Section */}
-            <div className="row-image">
+            <div className="row-image1">
               <img src={item.image} alt={`Row ${index + 1}`} />
             </div>
           </div>
@@ -153,7 +153,7 @@ const SolarPanelApartments = () => {
 
 <SixContainer />
 
-<div className='install-solar-container'>
+<div className='install-solar-container1'>
     <div className='install-solar'>
         <h2>Install Solar Panels for Your Multi-Family Property Today</h2>
         <p>The Solar Company works closely with businesses to provide solar panels for apartments and multi-family properties. Let us know how we can get started helping with your installation today. We’ll be with you every step of the process.</p>

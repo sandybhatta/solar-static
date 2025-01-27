@@ -81,7 +81,7 @@ const SolarPanelsWarehouse = () => {
    
   
     const handleScroll = () => {
-      const containers = document.querySelectorAll('.row-text');
+      const containers = document.querySelectorAll('.row-text3');
       containers.forEach(container => {
         const containerTop = container.getBoundingClientRect().top;
   
@@ -107,12 +107,12 @@ const SolarPanelsWarehouse = () => {
     return (
       <div>
         {/* Main Image Section */}
-        <div className="image-front">
+        <div className="image-front3">
           <img src={pic1} alt="Solar Panels" />
         </div>
   
         {/* Main Text Section */}
-        <div className="text-box-appartments">
+        <div className="text-box-appartments3">
           <div id="text-container" className="text-box-app">
             <h2>Solar Panels for Warehouses</h2>
 
@@ -126,25 +126,25 @@ const SolarPanelsWarehouse = () => {
             
           </div>
         </div>
-  <div className='unwanted'>
+  <div className='unwanted3'>
     <h2>Benefits From Switching to Solar</h2>
     <p>Now is the time to switch your commercial warehouse space to solar energy. Solar panels increase the value of a property and make for a solid long-term investment. While solar panels already come with energy-based incentives, they also come with other business advantages.</p>
   </div>
         {/* Row Containers */}
         {data.map((item, index) => (
           <div
-            className={`row-container ${index % 2 !== 0 ? "reverse-layout" : ""}`}
+            className={`row-container3 ${index % 2 !== 0 ? "reverse-layout3" : ""}`}
             key={index}
           >
             {/* Text Section */}
-            <div className="row-text" style={{ backgroundColor: `${bg[index]}` }}>
-              <img src={item.logo} alt="Logo" className="row-logo" />
+            <div className="row-text3" style={{ backgroundColor: `${bg[index]}` }}>
+              <img src={item.logo} alt="Logo" className="row-logo3" />
               <h2>{item.heading}</h2>
               <p>{item.paragraph}</p>
             </div>
   
             {/* Image Section */}
-            <div className="row-image">
+            <div className="row-image3">
               <img src={item.image} alt={`Row ${index + 1}`} />
             </div>
           </div>
@@ -154,8 +154,8 @@ const SolarPanelsWarehouse = () => {
 
 <SixContainer />
 
-<div className='install-solar-container'>
-    <div className='install-solar'>
+<div className='install-solar-container3'>
+    <div className='install-solar3'>
         <h2>Contact Us to Get Started</h2>
         <p>Ready to make the switch to solar and start saving money? The Solar Company specializes in increased ROI for many types of businesses including auto dealers, apartments, warehouses, and solar fields.</p>
         <p>Contact our team of experts if you are ready to convert your energy spending into energy savings. We can start the consultation phase of the process and get you a free quote on solar panel installation today. Our team can also answer any questions you may have about the process from start to finish. </p>

@@ -13,7 +13,7 @@ const Home = () => {
     const containerTop = container.getBoundingClientRect().top;
 
     // Check if the container is in view (change this value to adjust when it should appear)
-    if (containerTop <= window.innerHeight * 0.70) {
+    if (containerTop <= window.innerHeight * 0.60) {
       setShowText(true); // Show text when it's in the viewport
     } else {
       setShowText(false); // Hide text when it's out of the viewport

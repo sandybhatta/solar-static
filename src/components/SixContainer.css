@@ -59,4 +59,24 @@
   .six-content button:hover {
     background-color: #e68900;
   }
-  
+  @media(max-width:768px){
+    .six-container {
+      height: 90vh;
+    }
+    .six-content h2 {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    .six-content p {
+      font-size: 1rem;
+    }
+    .six-content button {
+      font-size: 1rem;
+      padding: 10px 20px;
+      color: rgb(7, 7, 7);
+      background-color: #ffffff;
+    }
+    .six-content{
+      padding: 10px 20px;
+    }
+  }

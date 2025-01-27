@@ -1,12 +1,4 @@
-.image-container{
-    height: 70vh;
-    width: 100%;
-    overflow: hidden;
-}
-.image-container img{
-    width: 100%;
-}
-.header{
+.header1{
     width: 100%;
     height: 20vh;
     background: rgb(211, 214, 222);
@@ -14,18 +6,18 @@
     justify-content: center;
     align-items: center;
 }
-.header h2{
+.header1 h2{
     font-size: 3rem;
     font-weight: 400;
 }
-.allofthem{
+.allofthem1{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.allofthem  .profile{
+.allofthem1  .profile{
     width: 70%;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -86,7 +78,45 @@ margin-bottom: 20px;
     color: rgb(1, 1, 1);
 }
 
+@media(max-width:768px){
+  .header1{
+    width: 100%;
+    height: auto;
+    background: rgb(211, 214, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 h2{
+    font-size: 2.5rem;
+    padding: 5px;
+    font-weight: 400;
+}
 
+
+
+
+
+.allofthem1  .profile{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.profile h2{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.profile h4{
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #66cc33;
+  margin-bottom: 20px;
+}
+.info p{
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+}
 
 
 

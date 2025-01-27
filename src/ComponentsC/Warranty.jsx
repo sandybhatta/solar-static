@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 const Warranty = () => {
     return (
         <div>
-          <div className='image-container'>
+          <div className='image-front3'>
             <img src={pic1} alt="piccs" />
           </div>
           <div className='header'>

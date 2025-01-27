@@ -52,4 +52,17 @@
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
   }
-  
+
+  @media (max-width: 768px){
+  .fourth-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #030303;
+    margin:10px 0 20px 0;
+  }
+  .icon-item-f img {
+    width: 180px;
+    
+  }
+
+  }

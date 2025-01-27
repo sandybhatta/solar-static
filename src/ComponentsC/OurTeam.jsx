@@ -7,13 +7,13 @@ import Footer from '../components/Footer'
 const OurTeam = () => {
   return (
     <div>
-        <div className='image-container'>
+        <div className='image-front3'>
             <img src={pic1} alt="piccs"/>
         </div>
-        <div className='header'>
+        <div className='header1'>
              <h2>Company Officers</h2>
         </div>
-        <div className='allofthem'>
+        <div className='allofthem1'>
              <div className='profile'>
                    <h2 className='name'>Jonathan Koster</h2>
                    <h4 className='post'>Chief Executive Officer</h4>
