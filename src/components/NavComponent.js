@@ -105,7 +105,7 @@ const NavComponent = () => {
         <ul className={`nav-options ${menuOpen ? 'show-mobile' : ''}`}>
           <li className='nav-item dropdown' onClick={() => toggleDropdown(0)}>
             <div className='nav-item-header'>
-              <Link to='/'>Commercial Solar Systems</Link>
+              <div >Commercial Solar Systems</div>
               <i className={`bx bx-right-arrow-alt`}></i>
             </div>
             <ul
@@ -113,22 +113,22 @@ const NavComponent = () => {
                 dropdownOpen === 0 ? 'show-dropdown' : ''
               }`}
             >
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/commercial-solar-systems/solar-panels-apartments/'>
                   Solar Panels for Apartments
                 </Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/commercial-solar-systems/solar-panels-carport/'>
                   Solar Panels for Carport
                 </Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/commercial-solar-systems/solar-panels-warehouse/'>
                   Solar Panels for Warehouse
                 </Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/commercial-solar-systems/solar-field-installations/'>
                   Solar Field Installations
                 </Link>
@@ -137,7 +137,7 @@ const NavComponent = () => {
           </li>
           <li className='nav-item dropdown' onClick={() => toggleDropdown(1)}>
             <div className='nav-item-header'>
-              <Link to='/'>Commercial Solar Projects</Link>
+              <div>Commercial Solar Projects</div>
               <i className='bx bx-right-arrow-alt'></i>
             </div>
             <ul
@@ -145,7 +145,7 @@ const NavComponent = () => {
                 dropdownOpen === 1 ? 'show-dropdown' : ''
               }`}
             >
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/commercial-solar-projects/process/'>
                   Our Turnkey Process
                 </Link>
@@ -154,7 +154,7 @@ const NavComponent = () => {
           </li>
           <li className='nav-item dropdown' onClick={() => toggleDropdown(2)}>
             <div className='nav-item-header'>
-              <Link to='/'>About Us</Link>
+              <div>About Us</div>
               <i className='bx bx-right-arrow-alt'></i>
             </div>
             <ul
@@ -162,32 +162,32 @@ const NavComponent = () => {
                 dropdownOpen === 2 ? 'show-dropdown' : ''
               }`}
             >
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/about/our-story/'>Our Story</Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/about/Our-Team/'>Our Team</Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/about/Gallery/'>Gallery</Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/about/Solar-News/'>Solar News</Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/about/FAQ/'>Frequently Asked Questions</Link>
               </li>
-              <li>
+              <li onClick={toggleMenu}>
                 <Link to='/about/warranty/'>Warranty</Link>
               </li>
             </ul>
           </li>
-          <li className='nav-item'>
+          <li onClick={toggleMenu} className='nav-item'>
             <Link style={{ color: 'black', textDecoration: 'none' }} to='/contact-us'>
               Contact Us
             </Link>
           </li>
-          <li className='nav-item'>
+          <li onClick={toggleMenu} className='nav-item'>
             <Link style={{ color: 'black', textDecoration: 'none' }} to='/store'>
               Store
             </Link>
