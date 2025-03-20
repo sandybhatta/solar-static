@@ -17,6 +17,7 @@ import OurTeam from "./ComponentsC/OurTeam";
 import Faq from "./ComponentsC/Faq";
 import Warranty from "./ComponentsC/Warranty";
 import ContactUs from "./ContactUs";
+import ComingSoon from "./ComingSoon";
 
 
 
@@ -62,12 +63,24 @@ const App = () => {
           element={<Faq />}
         />
         <Route
+          path="/about/Solar-News"
+          element={<ComingSoon/>}
+        />
+        <Route
           path="/about/warranty"
           element={<Warranty />}
         />
         <Route
+          path="/about/Gallery"
+          element={<ComingSoon/>}
+        />
+        <Route
           path="/contact-us"
           element={<ContactUs />}
+        />
+        <Route
+          path="/store"
+          element={<ComingSoon/>}
         />
       </Routes>
     </div>

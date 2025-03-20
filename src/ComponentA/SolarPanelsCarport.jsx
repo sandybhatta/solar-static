@@ -16,35 +16,35 @@ const data = [
   {
     image: pic2,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-money-trails.svg",
-    heading: "Additional Revenue Stream",
-    paragraph: "By investing in commercial solar power systems, you as the owner can benefit from a variety of federal and state incentives. Our financial team can help you take advantage of valuable commercial tax credits for solar energy and utility rebates by going green. We can give you an estimate of how much you could earn in your consultation. You could produce so much green electricity that you will be able to sell the excess back to the grid. This additional revenue will enable you to channel the profits into developing other areas of your business. ",
+    heading: "Generate Additional Revenue with Solar",
+    paragraph: "By investing in commercial solar power, you can take advantage of valuable federal and state incentives. Our financial team can guide you through available tax credits and utility rebates. During your consultation, we'll provide an estimate of how much you could earn. With excess energy, you can sell it back to the grid, creating a new income stream to reinvest into your business."
   },
   {
     image: pic3,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-store-carports.png",
-    heading: "Increase Property Value",
-    paragraph: "Commercial properties that have a solar panel system installed have a higher market value and sell faster than other properties that don't. Installing solar carports increases the usable square footage of your property.With the gaining popularity of solar, properties that already have solar installed will likely be in high demand due to the energy bill savings. Our expertise in commercial real estate enables us to help you understand your 'Return on Roof' when it comes to solar power.",
+    heading: "Boost Your Property’s Value with Solar",
+    paragraph: "Commercial properties with solar panels tend to have higher market value and sell faster than those without. Installing solar carports increases the usable space on your property. As solar energy gains popularity, properties with solar installations will likely be in high demand due to their energy savings. Let us help you understand the return on investment from installing solar on your roof."
   },
-  
   {
     image: pic5,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-money-bag.svg",
-    heading: "Protect Your Vehicles & Customers",
-    paragraph: "Texas hail storms and relentless heat can cause significant damage to your vehicles. Texas was the top state for hail loss claims on vehicles in 2017. Protecting your valuable assets is paramount for your dealership business.If you have an open surface lot, you probably already have hail insurance, but with an increase in premiums, this is no longer a viable option. Our solar panels are completely hail-proof and offer excellent protection from hail damage to your vehicles. ",
+    heading: "Protect Your Vehicles & Customers from the Elements",
+    paragraph: "Texas is known for its intense hail storms and extreme heat, which can damage your vehicles. In fact, Texas had the highest number of hail loss claims in 2017. Solar carports not only shield your cars but also provide reliable protection from hail damage. Say goodbye to expensive insurance premiums with our durable, hail-proof solar panels."
   },
   {
     image: pic6,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-document-check.svg",
-    heading: "Enjoy Savings with Solar",
-    paragraph: "You can receive a free quote for solar carports in your dealership. We only provide the highest quality solar panels for competitive prices. We understand that the commercial solar is a big investment, but we help you get the best return in green energy. Our finance team will help you make the most of the financing options, government grants, and tax credits in your area so you can get the greatest return. ",
+    heading: "Save Money with Solar Carports",
+    paragraph: "We offer free quotes for solar carports at your dealership. Our high-quality solar panels are competitively priced to give you the best value. We understand that commercial solar is a big investment, but we’ll help you maximize your return by guiding you through available financing options, government grants, and tax credits in your area."
   },
   {
     image: pic4,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-vehicle-check.svg",
-    heading: "Solar Panel Warranty",
-    paragraph: "You can enjoy peace of mind knowing that your entire system will be covered by the manufacturer's warranty. We ensure you are completely satisfied with the installation and functioning of your new solar system",
-  },
+    heading: "Comprehensive Solar Panel Warranty",
+    paragraph: "Rest easy knowing your entire solar system is covered by the manufacturer’s warranty. We ensure your installation is seamless and that you’re fully satisfied with the performance and longevity of your new solar energy system."
+  }
 ];
+
 
 const SolarPanelCarport = () => {
     const [showText, setShowText] = useState(false); // State to control visibility
@@ -84,12 +84,15 @@ const SolarPanelCarport = () => {
         <div className="text-box-appartments2">
           <div id="text-container" className="text-box-app">
             <h2>Solar Panels for Carports & Auto Dealers</h2>
-            <p>Solar panels for carports & auto dealers is efficient and a great investment. Utilize the surface area of your car port roofs and boost revenue with solar panels.</p>
-            <p>Looking across the parking lot of your auto dealership, you'll see the vast expanse of space that could be used to save and make money. Whether you already have carports installed or you're considering having a new commercial solar carport installation, you could maximize your ROI on their roof space.</p>
-            <p>It takes a lot of electricity to run an auto dealership – as you know from your monthly electricity bill. Your vehicles need maximum lighting for visibility and security. Solar power could eliminate your monthly bill and you may produce excess power to sell back to the grid.</p>
-            <p>Going solar will impress eco-conscious clients who opt for sustainable purchasing. 
-More and more consumers will choose businesses that have gone solar to support the reduction of their carbon footprint.</p>
-            <p>Discover the lasting benefits of choosing solar carports and optimize the potential of your property and your business. Get in touch to find out how we can help your business thrive with solar.</p>
+            <p>Solar panels for carports and auto dealerships are an efficient and profitable investment. Maximize the roof space of your carports and generate extra revenue with solar power.</p>
+
+            <p>Looking out over the parking lot of your auto dealership, you'll see an opportunity to save and make money by utilizing that vast space. Whether you already have carports or are planning a new solar carport installation, you can boost your ROI by using your roof space effectively.</p>
+
+            <p>Running an auto dealership requires a lot of energy, as seen in your monthly electricity bills. From vehicle lighting to security, solar energy can eliminate your electricity costs and even generate extra power that you can sell back to the grid.</p>
+
+            <p>Switching to solar will not only reduce your energy expenses but will also appeal to eco-conscious customers who prioritize sustainable businesses. More consumers are choosing to support businesses that help reduce their carbon footprint.</p>
+
+            <p>Explore the long-term advantages of solar carports and unlock the full potential of your property and business. Contact us today to learn how we can help your business thrive with solar energy.</p>
           </div>
         </div>
   <div className='unwanted'>
@@ -118,10 +121,12 @@ More and more consumers will choose businesses that have gone solar to support t
 
 <div className='solar-comp-container2'>
     <div className='solar-comp2'>
-            <h2>The Solar Company: Your Turnkey Solar Installer</h2>
-            <p>The Solar Company® is your local solar panel system specialist for commercial real estate. We help you maximize the assets and value of your property by introducing the financial benefits of solar for your business. Achieve impressive energy savings, property appreciation, a potential revenue stream, and company integrity.</p>
-            <p>We always support our clients every step of the way and help them access the financial subsidies and tax benefits of solar from the local government. We take care of the entire process from design to activation to provide you with a turnkey solar system that you know how to operate.  </p>
-            <p>We are lucky enough to work with a wide variety of clients from various businesses and establishments who rate us for quality and efficiency. They are always amazed by the financial benefits of our systems.</p>
+            <h2>The Solar Company: Your Full-Service Solar Installer</h2>
+            <p>The Solar Company® is your trusted local specialist for solar panel systems tailored to commercial real estate. We help you enhance your property’s value and assets by unlocking the financial benefits of solar energy for your business. Enjoy substantial energy savings, increased property value, a potential new revenue stream, and enhanced company credibility.</p>
+
+            <p>Our team is committed to supporting you at every stage, assisting you in securing financial incentives and tax benefits from local government programs. We handle everything from design to activation, ensuring that your turnkey solar system is ready for operation and easy to manage. </p>
+
+            <p>We are proud to work with a diverse range of clients across various industries who consistently rate us highly for our quality and efficiency. They are always impressed by the significant financial returns our solar systems bring to their businesses.</p>
             
     </div>
 </div>
@@ -130,8 +135,8 @@ More and more consumers will choose businesses that have gone solar to support t
 <div className='install-solar-container2'>
     <div className='install-solar2'>
         <h2>Get Started with Solar Carports</h2>
-        <p>Discover how you can maximize the potential of your car dealership business with solarincrease-powered carports. Impress your customers,  your revenue and property value and protect your vehicles with this innovative commercial solar panel installation.</p>
-        <p>Get in touch with our helpful team to get answers to your questions and book a consultation for your solar installation today.</p>
+        <p>Unlock the full potential of your car dealership by installing solar-powered carports. Enhance your property value, boost revenue, and protect your vehicles with this innovative solar solution for commercial spaces.</p>
+        <p>Contact our friendly team today to get all your questions answered and schedule a consultation for your solar installation.</p>
     </div>
 
 </div>

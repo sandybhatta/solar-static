@@ -30,33 +30,33 @@ const ThirdContainer = () => {
       style={{ backgroundImage: `url(${officePicture})` }}
     >
       <h2 className={`heading ${showContent ? 'visible' : ''}`}>
-        Why Going Solar Is the Best Decision You’ll Ever Make
+      Why Switching to Solar Could Be the Smartest Choice You Make
       </h2>
       <div className={`icon-grid ${showContent ? 'visible' : ''}`}>
         <div className="icon-item">
           <img src="https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-taxsavings.svg" alt="Tax Incentives" />
           <h3>Tax Incentives</h3>
-          <p>You can take advantage of great government financial incentives and tax benefits for going solar.</p>
+          <p>Enjoy valuable government incentives and tax benefits when you switch to solar.</p>
         </div>
         <div className="icon-item">
           <img src="https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-dollar-arrows.svg" alt="Lower Utility Bill" />
-          <h3>Lower Utility Bill</h3>
-          <p>This free and inexhaustible energy source lets your building be energy independent.</p>
+          <h3>Lower Utility Bills</h3>
+          <p>Harness free, unlimited solar energy to make your building more energy independent.</p>
         </div>
         <div className="icon-item">
           <img src="https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-money-trail.svg" alt="Business Savvy" />
-          <h3>Business Savvy</h3>
-          <p>Solar can save your business millions, increase your property value, and create a new revenue stream – all at once.</p>
+          <h3>Business Smart</h3>
+          <p>Switching to solar can cut costs, boost property value, and open new revenue opportunities—all at once.</p>
         </div>
         <div className="icon-item">
           <img src="https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-sun.svg" alt="Greener Impact" />
           <h3>Greener Impact</h3>
-          <p>Solar is 100% renewable, generating a net positive impact on the environment and a positive impact on your company’s reputation.</p>
+          <p>Solar energy is fully renewable, reducing your environmental footprint while enhancing your company's reputation.</p>
         </div>
         <div className="icon-item">
           <img src="https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-thefinger.svg" alt="It's Easy" />
-          <h3>It's Easy</h3>
-          <p>Our installation experts and in-house finance team handle everything for you, from financing and design to installation.</p>
+          <h3>Hassle-Free Process</h3>
+          <p>Our experts take care of everything—from financing and design to installation—making your switch to solar seamless.</p>
         </div>
       </div>
     </div>

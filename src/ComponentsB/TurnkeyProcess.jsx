@@ -17,40 +17,40 @@ const data = [
     image: pic2,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-meeting.svg",
     heading: "Consultation",
-    paragraph: "We’ll provide a proposal based on your roof’s solar potential and your historical electricity usage so you can make an informed decision about the financial viability of solar for your business. We can also help you secure financing and determine your potential for tax benefits and rebate savings. ",
+    paragraph: "We begin by providing a customized proposal tailored to your roof's solar potential and your past energy usage, ensuring you have the information needed to make an informed decision about adopting solar. Our team will also assist you in securing financing options and guide you through the process of accessing tax benefits and rebate opportunities."
   },
   {
     image: pic3,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-buildings-clouds.svg",
     heading: "Site Assessment & Design",
-    paragraph: "We will visit your site to verify the system design in your proposal, using drones and specialized software to measure your roof. We will then design your system based on zoning restrictions and limitations that may be inherent to your building’s structure.",
+    paragraph: "Our experts will visit your site to validate the proposed system design, utilizing drones and specialized software to assess your roof. We’ll then craft a system tailored to your specific needs, considering zoning regulations and any structural limitations that may impact the design."
   },
-  
   {
     image: pic5,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-document-sign.svg",
     heading: "Permits & Approvals",
-    paragraph: "Before installation, we will secure all the required permits and approvals from the city, your utility company and any other governing agency within your area to fulfill all zoning requirements and city ordinances. ",
+    paragraph: "Before installation begins, we handle all the necessary permits and approvals from local authorities, utility companies, and other governing bodies. This ensures your installation meets all zoning and regulatory requirements, streamlining the entire process."
   },
   {
     image: pic6,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-hand-wrench.svg",
     heading: "Installation",
-    paragraph: "Our NABCEP-certified team of solar technicians works quickly and efficiently to install your solar panels with minimal disruption to your business. While most installations can be completed within a week, complex systems such as multi-family housing systems with a battery backup may take longer.",
+    paragraph: "Our NABCEP-certified solar technicians work swiftly and efficiently, minimizing any disruption to your business. While most installations take less than a week, more complex setups, such as multi-family systems with battery backups, may require a bit more time."
   },
   {
     image: pic4,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-check.svg",
     heading: "Inspection",
-    paragraph: "After your solar system is installed, it will be inspected by your utility company and city inspector to ensure it is up to code before activation. The utility company may also install a new meter to enable net metering so you can sell excess electricity back to the grid.",
+    paragraph: "After installation, your system will undergo a thorough inspection by the city inspector and utility company to ensure compliance with all codes and regulations. If applicable, the utility company may install a new meter to facilitate net metering, allowing you to sell excess energy back to the grid."
   },
   {
     image: pic3,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-hand-technology.svg",
     heading: "Activation",
-    paragraph: "Once the installation is complete, the system passes all inspections, and the proper permits have been granted, it’s time to flip the switch. We’ll work with you to energize the system and show you how to leverage the monitoring system.",
-  },
+    paragraph: "Once your system has passed inspections and all necessary permits are in place, we’ll guide you through the final step—activating your solar system. We’ll help you get started with the monitoring system, ensuring you can track and maximize your energy production moving forward."
+  }
 ];
+
 
 const TurnkeyProcess = () => {
     
@@ -110,7 +110,7 @@ const TurnkeyProcess = () => {
             </div>
           </div>
         ))}
-
+<SixContainer/>
 
 <div className='form-contact'>
   {/* Left Section with Text */}

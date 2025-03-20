@@ -44,13 +44,11 @@ const Home = () => {
 
       <div id="text-container" className='text-container'>
         <div className={`text-content ${showText ? 'visible' : ''}`}>
-          <h2>Generate a Higher Return on Roof</h2>
+          <h2>Maximize Your Roof’s Potential!</h2>
 
-          <p>The Solar Company® specializes in commercial solar that helps</p>
+          <p>The Solar Company® specializes in commercial solar solutions,
 
-        <p> you evaluate, execute and finance an informed solar installation</p>
-
-          <p>investment so you can achieve the highest return possible.</p>
+        guiding you through evaluation, installation, 98and financing to help you make a smart investment with the best possible returns</p>
         </div>
       </div>
 

@@ -72,19 +72,15 @@ const SolarFieldInstallations = () => {
         <h2>Solar Fields</h2>
       </div>
       <div className="get-started">
-        <h2>Contact Us to Get Started</h2>
-        <p>
-          Ready to make the switch to solar and start saving money? The Solar
-          Company specializes in increased ROI for many types of businesses
-          including auto dealers, apartments, warehouses, and solar fields.
-        </p>
-        <p>
-          Contact our team of experts if you are ready to convert your energy
-          spending into energy savings. We can start the consultation phase of
-          the process and get you a free quote on solar panel installation
-          today. Our team can also answer any questions you may have about the
-          process from start to finish.
-        </p>
+      <h2>Get in Touch to Start Your Solar Journey</h2>
+<p>
+  Ready to switch to solar and start saving on energy costs? The Solar
+  Company specializes in helping businesses—from auto dealers to apartments, warehouses, and solar fields—achieve increased ROI through solar energy solutions.
+</p>
+<p>
+  Reach out to our expert team today and begin transforming your energy expenses into long-term savings. We’ll kick off the process with a consultation and provide you with a free quote for solar panel installation. If you have any questions, we're here to guide you through every step of the process.
+</p>
+
       </div>
 
       {/* Video and Photo Containers */}

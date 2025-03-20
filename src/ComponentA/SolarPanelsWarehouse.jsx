@@ -23,59 +23,60 @@ const data = [
   {
     image: pic2,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-money-hand.svg",
-    heading: "Solar Panels Generate Fantastic ROI",
-    paragraph:"Solar panels create a great return on investment in terms of energy output costs.Some may try to argue that installing solar panels is a costly initial investment, but they fail to realize the potential of energy savings down the road. The ROI you get from solar panels often exceeds that of other investments made into your business, especially if you have a large warehouse space. If you have multiple large warehouses, solar panels are a smart bet towards moving you into true energy independence."
+    heading: "Solar Panels Deliver Impressive ROI",
+    paragraph: "Solar panels offer an exceptional return on investment, especially when considering long-term energy savings. Although the initial investment may seem steep, the long-term benefits, such as reduced energy bills and potential tax credits, make it worthwhile. For large warehouses or multiple properties, solar panels can significantly boost your energy independence and financial performance."
   },
   {
     image: pic3,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-dollar-sign-arrows.svg",
-    heading: "Solar Panels Can Reduce Your Operating Costs",
-    paragraph: "Once your commercial grade solar panels are paid off, they create a world of difference on your business's balance sheet. The cost to install the solar panels will more than pay for itself once you stop paying for electric utilities.",
+    heading: "Reduce Operating Expenses with Solar",
+    paragraph: "After your commercial solar system is paid off, the ongoing savings on energy costs become clear. No longer will you be burdened with high electricity bills, freeing up resources that can be reinvested into your business for further growth and development."
   },
   
   {
     image: pic5,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-pie-chart.svg",
-    heading: "Control Over Energy Bills",
-    paragraph: "Budgeting for operating costs from utility bills can be tricky given their month-to-month variance. With high-grade commercial solar panels, you can know what to expect each month cost-wise for your energy bill. You won't have to worry about rising energy costs, meaning you can focus on other areas of your budget to help your business grow.",
+    heading: "Gain Control Over Your Energy Bills",
+    paragraph: "Managing your energy costs becomes much easier with solar panels. High-quality commercial solar systems allow you to predict your energy expenses, minimizing surprises from rising utility rates. This predictability makes it easier to plan your finances and focus on business growth without worrying about fluctuating energy costs."
   },
   {
     image: pic6,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-property-value.svg",
-    heading: "Increase Property Value",
-    paragraph: "Solar panels are incredibly popular. Businesses with solar panels typically have higher property values and sell faster, even if there are payments remaining. Business owners understand the financial benefits of having commercial solar panels, meaning they will be more incentivized to purchase properties with them installed.",
+    heading: "Boost Property Value with Solar Panels",
+    paragraph: "Properties with solar panels are in high demand and often sell for more. Solar systems can significantly increase the value of your business premises, making it an attractive investment for potential buyers. Moreover, properties equipped with solar are quicker to sell, especially when compared to those without solar technology."
   },
   {
     image: pic4,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-tax-credits.svg",
-    heading: "Government Tax Credits",
-    paragraph: "Users of commercial solar panels can also take advantage of tax benefits from the Solar Investment Tax Credit (ITC), which gives a 26% federal tax credit. Businesses can also take advantage of an immediate first-year deduction on the solar panel installation due to an available bonus depreciation. You know it is a sign of something valuable if the government is incentivizing business owners to make the switch to solar.",
+    heading: "Take Advantage of Tax Incentives",
+    paragraph: "By switching to solar, businesses can benefit from significant tax incentives, such as the federal Solar Investment Tax Credit (ITC), which offers a 26% tax credit. Additionally, businesses can enjoy first-year deductions on solar installation costs thanks to bonus depreciation, making the transition to solar even more financially attractive."
   },
   {
     image: pic7,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-chart-arrow-down.svg",
-    heading: "Increasing Affordability",
-    paragraph: "One of the biggest complaints against solar panels was the cost of installation. However, these costs have dropped significantly over the last decade. Consider this along with the federal Solar Investment Tax Credit, any applicable state tax credits for solar panel installation, and cash rebates from the installer and these panels practically pay for themselves in advantages.",
+    heading: "More Affordable Solar Installation",
+    paragraph: "While installation costs used to be a significant barrier to solar adoption, prices have dropped significantly in recent years. With the addition of federal and state incentives, as well as installer rebates, solar panels have become more affordable than ever, offering an impressive return on investment over time."
   },
   {
     image: pic8,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-money-atm.svg",
-    heading: "Long Term Cash Flow Growth",
-    paragraph: "As your solar panels get to work, you will notice your energy savings. This means more cash in your pocket to find other investment opportunities for your business. Imagine how much extra liquidity you could have if you could cut down on your overhead costs with powering your warehouse space. Once the panels are completely paid off, there will be even more cash flow to tap into.",
+    heading: "Increase Your Cash Flow with Solar",
+    paragraph: "As you save on energy costs, you'll notice an improvement in your business's cash flow. The money saved on utility bills can be reinvested into other aspects of your business. Once the solar panels are paid off, the savings will continue to build, giving you even more flexibility in managing your finances."
   },
   {
     image: pic9,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-hands-heart.svg",
-    heading: "Helps with Branding",
-    paragraph: "Today many customers prioritize companies that go green with their logistics and operations. Switching to solar panels allows you to market your commitment to a greener planet by doing your part. This creates a positive message and brand image. Your customers and employees will be happier knowing the business is operating with conservation in mind.",
+    heading: "Enhance Your Brand's Reputation",
+    paragraph: "In today's world, customers are increasingly drawn to companies that prioritize sustainability. By installing solar panels, you show your commitment to a greener future, enhancing your brand's reputation. Both your customers and employees will appreciate knowing you're taking steps to reduce your environmental footprint."
   },
   {
     image: pic10,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-panels.svg",
-    heading: "Low Maintenance Once Installed",
-    paragraph: "The solar cells that generate power for your business are encased in strong, tempered glass. These panels are built to withstand the elements and can survive heavy rains, hail, wind, and snow. While solar panels are built to be durable, manufacturers also provide warranties for replacement should anything go wrong.",
+    heading: "Solar Panels: Low Maintenance, High Durability",
+    paragraph: "Solar panels are built to last. Encased in durable tempered glass, they withstand harsh weather conditions like hail, rain, and snow. Not only are they designed for durability, but they also come with warranties for peace of mind, ensuring that your investment remains protected for years to come."
   }
 ];
+
 
 const SolarPanelsWarehouse = () => {
    
@@ -116,19 +117,19 @@ const SolarPanelsWarehouse = () => {
           <div id="text-container" className="text-box-app">
             <h2>Solar Panels for Warehouses</h2>
 
-            <p>The Solar Company® specializes in solar panels for warehouses that help you evaluate, execute and finance an informed solar installation investment so you can achieve the highest return possible.</p>
+            <p>The Solar Company® specializes in providing solar panel solutions for warehouses, helping you evaluate, execute, and finance a strategic solar investment to achieve maximum returns.</p>
 
-            <p>Our team of solar and real estate experts can conduct a thorough cost-benefit analysis on your property to show you how much you could potentially save. This analysis will include potential ROI, potential revenue generation via energy savings, and property appreciation.</p>
+            <p>Our team of solar and real estate experts will conduct a comprehensive cost-benefit analysis for your property, showcasing potential savings, return on investment (ROI), revenue generation through energy savings, and increased property value.</p>
 
 
-            <p>Contact The Solar Company if you would like to kickstart the process and see how much you could be generating from switching to solar. </p>
+            <p>Reach out to The Solar Company today to begin the process and discover how much you could be saving and generating by switching to solar.</p>
            
             
           </div>
         </div>
   <div className='unwanted3'>
-    <h2>Benefits From Switching to Solar</h2>
-    <p>Now is the time to switch your commercial warehouse space to solar energy. Solar panels increase the value of a property and make for a solid long-term investment. While solar panels already come with energy-based incentives, they also come with other business advantages.</p>
+    <h2>Benefits of Switching to Solar</h2>
+    <p>Now is the perfect time to convert your commercial warehouse to solar energy. Solar panels not only increase property value but also serve as a smart long-term investment. In addition to energy savings, solar panels offer several other business advantages, making them a valuable addition to your property.</p>
   </div>
         {/* Row Containers */}
         {data.map((item, index) => (
@@ -156,9 +157,10 @@ const SolarPanelsWarehouse = () => {
 
 <div className='install-solar-container3'>
     <div className='install-solar3'>
-        <h2>Contact Us to Get Started</h2>
-        <p>Ready to make the switch to solar and start saving money? The Solar Company specializes in increased ROI for many types of businesses including auto dealers, apartments, warehouses, and solar fields.</p>
-        <p>Contact our team of experts if you are ready to convert your energy spending into energy savings. We can start the consultation phase of the process and get you a free quote on solar panel installation today. Our team can also answer any questions you may have about the process from start to finish. </p>
+    <h2>Get in Touch and Start Your Solar Journey</h2>
+<p>Ready to switch to solar and start saving on energy costs? At The Solar Company, we specialize in helping businesses of all sizes—including auto dealerships, apartment complexes, warehouses, and solar fields—maximize their return on investment with solar energy.</p>
+<p>Contact our team of experts to begin transforming your energy expenses into long-term savings. We’ll guide you through the entire process, starting with a consultation and a free quote for your solar panel installation. Have questions? We’re here to answer them and ensure a seamless transition to solar power from start to finish.</p>
+
     </div>
 
 </div>

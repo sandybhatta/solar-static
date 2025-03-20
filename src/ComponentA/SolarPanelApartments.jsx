@@ -23,59 +23,59 @@ const data = [
   {
     image: pic2,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-property-value.svg",
-    heading: "Solar Adds Value to the Property",
-    paragraph: "Adding solar panels increases the net worth of the property. If you choose to refinance, having a solar panel array may help you to get better rates.",
+    heading: "Increase Your Property Value with Solar",
+    paragraph: "Installing solar panels can significantly boost your property’s value. Plus, if you decide to refinance, having a solar array could help you secure better rates."
   },
   {
     image: pic3,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-family.svg",
-    heading: "Creates a Better Experience for Tenants",
-    paragraph: "The draw of low cost or no cost electricity for tenants is huge, and by adding solar panels you are giving value to them. While solar panel systems work best with master meter systems, there are many ways to work it into any current energy plan you have.",
+    heading: "Enhance Tenant Satisfaction with Solar",
+    paragraph: "Tenants love the idea of low-cost or even free electricity. By adding solar panels, you’re offering them great value and improving their living experience. Solar panels work best with master meter systems, but there are many ways to incorporate them into any existing energy plan."
   },
-  
   {
     image: pic5,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-tax-credits.svg",
-    heading: "Great Government Incentives for Going Solar",
-    paragraph: "There are many government incentives for going solar. For starters, the federal government offers a 26% tax credit for commercial solar system installations. In addition, many states offer their own incentives for solar. California, for example, offers a rebate of up to $5,000 for commercial systems. These government incentives make solar more affordable and help to accelerate the adoption of solar energy. If you're thinking about going solar, learn the incentives available in your state. ",
+    heading: "Take Advantage of Government Incentives for Solar",
+    paragraph: "There are numerous government incentives for adopting solar energy. For example, the federal government offers a 26% tax credit for commercial solar installations, and many states, like California, offer additional rebates. These incentives make solar more affordable and encourage its widespread adoption."
   },
   {
     image: pic6,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-house-shield-check.svg",
-    heading: "Solar Panels Can Physically Protect Property",
-    paragraph: "Ultra resilient solar panels may even work as a barrier from natural weather conditions. Solar panels are known to be effective in blocking and deflecting debris. Some property owners have even found that their solar panels have protected their property from hail damage. ",
+    heading: "Solar Panels Can Protect Your Property",
+    paragraph: "Solar panels aren’t just for energy—they can also provide physical protection. Their durable design helps block debris and deflect harsh weather conditions, with some property owners even reporting reduced hail damage thanks to their panels."
   },
   {
     image: pic4,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-dollar-sign-arrows.svg",
-    heading: "Solar Panels Can Help Reduce Your Energy Bills",
-    paragraph: "Installing solar panels can help reduce your energy bills, and may even help you qualify for tax credits or rebates. Depending on your location and the size of your solar system, you could eliminate up to 100% of your electricity bill.",
+    heading: "Slash Your Energy Bills with Solar",
+    paragraph: "Solar panels can help you significantly lower your energy bills and, depending on the size of your system and location, might even eliminate your electricity costs entirely. Plus, you may qualify for tax credits and rebates."
   },
   {
     image: pic7,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-chart-arrow-up.svg",
-    heading: "Solar Panels Can Hedge Against Inflation",
-    paragraph: "The cost of electricity from the grid continues to rise, but the cost of solar energy has remained stable or even decreased in some cases. Installing a solar system now could help protect you from future rate hikes, providing another financial return on your investment.",
+    heading: "Protect Your Business Against Rising Energy Costs",
+    paragraph: "Electricity prices continue to rise, but the cost of solar energy remains stable or even decreases. Installing a solar system now can protect you from future rate hikes, providing a long-term financial benefit."
   },
   {
     image: pic8,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-storefront.svg",
-    heading: "Practical for Nearly Every Environment",
-    paragraph: "With the advancement of solar technology, there is now a solar panel for nearly every environment. Whether your property is in an urban area or a rural area, there is a solar option that will work for you. Solar panels are also perfect for homes with shaded roofs, as they can still produce energy from the sun's rays.",
+    heading: "Solar Works in Almost Any Environment",
+    paragraph: "Thanks to advancements in solar technology, there's now a solution for nearly every environment. Whether your property is in a city or a rural area, there’s a solar option for you. Even homes with shaded roofs can benefit from solar energy."
   },
   {
     image: pic9,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-sun-rays.svg",
-    heading: "Solar Panels Reduce Carbon Emissions and Promote Renewable Energy",
-    paragraph: "Solar panels are one of the most effective ways to reduce carbon emissions and promote renewable energy. Installing solar panels can help property owners and businesses save money on their energy bills, while also reducing their environmental impact. Solar panels also play a central role in transitioning our economy to a clean energy future.",
+    heading: "Reduce Your Carbon Footprint with Solar",
+    paragraph: "Solar panels are one of the most effective ways to cut carbon emissions while supporting renewable energy. They help property owners save on energy bills and play a key role in reducing environmental impact, contributing to a cleaner, sustainable future."
   },
   {
     image: pic10,
     logo: "https://www.thesolarcompany.com/wp-content/uploads/2022/04/icon-panels.svg",
-    heading: "Solar Energy is the Future of Clean Energy",
-    paragraph: "SPosition your property and business as being on the cutting edge of technology and forward-thinking decisions. With the majority of Americans expressing concern and interest in green tech, your residential living complex's solar panels advertise that you are aligned with their values and can meet their needs.",
+    heading: "Position Your Property for the Future with Solar",
+    paragraph: "Solar energy is the future of clean power. By installing solar panels, you position your property as a forward-thinking, environmentally conscious business that aligns with the growing interest in green technology and sustainability."
   }
 ];
+
 
 const SolarPanelApartments = () => {
    
@@ -116,12 +116,12 @@ const SolarPanelApartments = () => {
           <div id="text-container" className="text-box-app">
             <h2>Solar Panels for Apartments</h2>
  
-            <p>The Solar Company® provides Solar Panels for Apartments in Texas and the Sunbelt area for sustainable solutions that provide an excellent return on investment. Solar panels are now more affordable than ever, and we help owners get the most value for their solar energy solutions.</p>
+            <p>The Solar Company® offers affordable solar panel solutions for apartments in Texas and the Sunbelt, providing sustainable options with excellent returns on investment. With the cost of solar panels more affordable than ever, we help owners maximize the value of their solar energy systems.</p>
 
-            <p>Solar panels add tremendous return on investment to apartment complexes. Experts estimate that each retrofit—or, adding solar panels to existing buildings—contributes as much as 20% ROI annually.</p>
+            <p>Solar panels significantly boost the ROI of apartment complexes. Experts estimate that each retrofit can contribute up to 20% ROI annually.</p>
 
 
-            <p>In fact, high energy consumption buildings in high energy cost areas benefit the most from installing solar panels. During the past ten years, the cost of installing solar has declined by more than 70%. Also, the technology is greatly increasing in popularity, with up to 42% more usage every year.</p>
+            <p>Buildings with high energy consumption in areas with high energy costs benefit most from solar panel installation. Over the past decade, installation costs have dropped by more than 70%, and solar technology is growing in popularity, with usage increasing by up to 42% each year.</p>
            
             
           </div>
@@ -156,7 +156,7 @@ const SolarPanelApartments = () => {
 <div className='install-solar-container1'>
     <div className='install-solar'>
         <h2>Install Solar Panels for Your Multi-Family Property Today</h2>
-        <p>The Solar Company works closely with businesses to provide solar panels for apartments and multi-family properties. Let us know how we can get started helping with your installation today. We’ll be with you every step of the process.</p>
+        <p>The Solar Company partners with businesses to provide tailored solar panel solutions for apartments and multi-family properties. Reach out to us today, and we'll guide you through every step of the installation process. Let us help you get started!</p>
     </div>
 
 </div>
